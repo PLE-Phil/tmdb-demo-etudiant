@@ -2,8 +2,8 @@
 
 a{
   &:link{
-    color: var(--color-link);
     text-decoration: none;
+    color: var(--color-link);
   }
 
   &:visited{

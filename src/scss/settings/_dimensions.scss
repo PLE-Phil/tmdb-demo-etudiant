@@ -3,19 +3,19 @@
 :root{
   // Dimension maximal
   --max-width: 1200px;
-  --min-width: 335px;
+  --min-width: 375px;
 
-  --padding-thin: 10px;
-  --padding-large: 20px;
+  --padding-thin: 15px;
+  --padding-large: 30px;
 
-  --margin-thin: 10px;
-  --margin-large: 20px
+  --margin-thin: 30px;
+  --margin-large: 50px;
 
 }
 
 
 // MEDIA QUERIES BREAKPOINTS
-$vw-thin: 320px;
+$vw-thin: 375px;
 $vw-small: 576px;
 $vw-medium: 768px;
 $vw-large: 1000px;
