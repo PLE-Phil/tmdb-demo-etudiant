@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap" rel="stylesheet">    <!-- Typo : Nunito -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/script.js" defer></script>
@@ -15,8 +16,8 @@
 
 <header>
     <div class="wrapper">
-        <img src="" alt="" id="logo">
-        <img src="" alt="" id="Menu">
+        <img src="images/logo.svg" alt="Logo TIMFLIX" id="logo">
+        <img src="images/hamburger.svg" alt="Menu hamburger" id="Menu">
 
         <nav class="nav-principale">
             <ul>
@@ -39,39 +40,79 @@
 
 <section class="moment">
     <div class="wrapper">
-        <h2></h2>
-        <p></p>
+        <h2>Films du moment</h2>
+        <p>Voyez et revoyés les films les plus populaires du 7e art !</p>
+
+        <!-- IL FAUT FAIRE LE CARROUSSEL ICI -->
+
         <div class="CARROUSSELx9">
-            <h3 class="titre"></h3>
-            <p class="cote"></p>
-            <a href=""></a></div>
+            <h3 class="titre">Titre</h3>
+            <p class="cote">Cote</p>
+            <a href="fiche-film.html">En savoir plus</a>
+        </div>
+
+
+
+        <div class="swiper-container carrousel-populaire">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-film">
+                    <h3 class="titre">Titre</h3>
+                    <p class="cote">Cote</p>
+                    <a href="fiche-film.html">En savoir plus</a>
+                </div>
+                <div class="swiper-slide">
+                    <h3 class="titre">Titre</h3>
+                    <p class="cote">Cote</p>
+                    <a href="fiche-film.html">En savoir plus</a>
+                </div>
+                <div class="swiper-slide">
+                    <h3 class="titre">Titre</h3>
+                    <p class="cote">Cote</p>
+                    <a href="fiche-film.html">En savoir plus</a>
+                </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+
+
     </div>
 </section>
 
 <section class="noter">
     <div class="wrapper">
-        <h2></h2>
-        <p></p>
+        <h2>Les mieux notés</h2>
+        <p>Découvrez les films les mieux notés sur notre site; la crème de la crème selon le publique. Vous pouvez aussi donné votre avis de cinéphile sur tous ces films !</p>
         <article class="ydoitenavoir6"><img src="" alt="">
             <div class="description">
-                <h3></h3>
-                <p class="annee"></p>
-                <p class="cote"></p>
-                <a href=""></a></div>
+                <h3>Titre</h3>
+                <p class="annee">Année</p>
+                <p class="cote">cote</p>
+                <a href="fiche-film.html">En savoir plus</a>
+            </div>
         </article>
     </div>
 </section>
 
-<img src="" alt="" id="remonte">
+<img src="images/fleche.svg" alt="Flèche vers le haut avec un cercle autour" id="remonte">
 
 <footer class="footer">
     <div class="wrapper">
     <ul>
-        <p></p>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <p>Philippe Lachance-Émond</p>
+        <li><a href="">Politiques</a></li>
+        <li><a href="">À propos</a></li>
+        <li><a href="">Ma liste</a></li>
+        <li><a href="">Contact</a></li>
     </ul>
 
     <hr>
@@ -79,17 +120,17 @@
 
         <div class="reseaux">
             <ul>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href="instagram.com"><img src="images/instagram.svg" alt="Appareil photo en forme rond de couleur arc-en-ciel"></a></li>
+                <li><a href=""><img src="images/facebook.svg" alt="Lettre f entouré d'un cercle bleu"></a></li>
+                <li><a href=""><img src="images/twitter.svg" alt="Oiseau entouré d'un cercle bleu pâle"></a></li>
+                <li><a href=""><img src="images/reddit.svg" alt="Visage de robot transparent entouré dUn cercle orange"></a></li>
             </ul>
         </div>
 
         <div class="credits">
-            <a href="" class="TMDB"><img src="" alt=""></a>
-            <p></p>
-            <p></p>
+            <a href="" class="TMDB"><img src="images/TMDB.svg" alt="Logo de THE MOVIE DATABASE"></a>
+            <p>© 2019 — 2020</p>
+            <p>Vie privé — Nétiquette</p>
         </div>
     </div>
 </footer>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap" rel="stylesheet">    <!-- Typo : Nunito -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/script.js"></script>
@@ -16,8 +17,8 @@
 
 <header>
     <div class="wrapper">
-        <img src="" alt="" id="logo">
-        <img src="" alt="" id="Menu">
+        <img src="images/logo.svg" alt="Logo TIMFLIX" id="logo">
+        <img src="images/hamburger.svg" alt="Menu hamburger" id="Menu">
 
         <nav class="nav-principale">
             <ul>
@@ -27,19 +28,43 @@
                 <li><button>s'inscrire</button></li>
             </ul>
         </nav>
-    </div>>
+    </div>
 </header>
 
-<img src="" alt="" id="remonte">
+<article class="film">
+    <h2>Titre du film</h2>
+    <img src="images/image-temp.jpg" alt="">
+    <p class="annee">Année</p>
+    <p class="cote">Cote</p>
+    <p class="synopsis">Synopsis</p>
+    <p class="langue">Langue Originale</p>
+    <p class="budget">Budget</p>
+    <p class="recette">Recettes</p>
+    <p class="duree">2h 11</p>
+</article>
+
+<section class="acteurs">
+    <h2>Acteurs</h2>
+    <div class="carte-acteurxtouslesacteur">
+        <img src="images/image-temp.jpg" alt="">
+        <div class="description">
+            <h4>Nom</h4>
+            <p class="nom-film">Nom dans le film</p>
+            <a href="">En savoir plus</a>
+        </div>
+    </div>
+</section>
+
+<img src="images/fleche.svg" alt="Flèche vers le haut avec un cercle autour" id="remonte">
 
 <footer class="footer">
     <div class="wrapper">
         <ul>
-            <p></p>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <p>Philippe Lachance-Émond</p>
+            <li><a href="">Politiques</a></li>
+            <li><a href="">À propos</a></li>
+            <li><a href="">Ma liste</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
 
         <hr>
@@ -47,17 +72,17 @@
 
         <div class="reseaux">
             <ul>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href="instagram.com"><img src="images/instagram.svg" alt="Appareil photo en forme rond de couleur arc-en-ciel"></a></li>
+                <li><a href=""><img src="images/facebook.svg" alt="Lettre f entouré d'un cercle bleu"></a></li>
+                <li><a href=""><img src="images/twitter.svg" alt="Oiseau entouré d'un cercle bleu pâle"></a></li>
+                <li><a href=""><img src="images/reddit.svg" alt="Visage de robot transparent entouré dUn cercle orange"></a></li>
             </ul>
         </div>
 
         <div class="credits">
-            <a href="" class="TMDB"><img src="" alt=""></a>
-            <p></p>
-            <p></p>
+            <a href="" class="TMDB"><img src="images/TMDB.svg" alt="Logo de THE MOVIE DATABASE"></a>
+            <p>© 2019 — 2020</p>
+            <p>Vie privé — Nétiquette</p>
         </div>
     </div>
 </footer>
